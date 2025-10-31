@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+/* ❤️ ハート（Lives）を右上に固定表示 */
+.lives-container {
+  position: fixed;
+  top: 15px;
+  right: 25px;
+  font-size: 36px;
+  z-index: 1000;
+}
+/* === 背景Canvas === */
+.background-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  background: linear-gradient(to bottom, #0d3d5c 0%, #0a2d4d 50%, #052033 100%);
+  overflow: hidden;
+}
